@@ -282,7 +282,30 @@ header {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
+.div2 {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.text_product {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.products {
+    width: 80%;
+}
+.sora_video {
+    width: 250px;
+}
+#text_sora_title {
+    font-size: 10px;
+    margin-top: -5px;
+}
+#text_sora_is_here {
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: 270px;
+    font-weight: 500;
+}
 }
 
 @media (min-width: 1025px) and (max-width: 1279px) {
@@ -355,8 +378,23 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
-}
+        .img_chatGPT {
+            width: 250px;
+            height: 333px;
+            border-radius: 15px;
+        }
+        #text_chatGPT_title {
+            font-size: 10px;
+            margin-top: -5px;
+            margin-left: -50px;
+        }
+        #text_Introducing_chatGPT {
+            font-size: 10px;
+            margin-left: 25px;
+            margin-top: 270px;
+            font-weight: 500;
+        }
+}   
 
 @media (min-width: 1025px) and (max-width: 1279px) {
 
@@ -409,7 +447,6 @@ header {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-
     .img_search {
             width: 160px;
             height: 200px;
@@ -426,10 +463,28 @@ header {
         margin-top: 140px;
         font-weight: 500;
     }
-
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_search {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+
+    #text_search_title {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+
+    #text_search {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
 
 @media (min-width: 1025px) and (max-width: 1279px) {}
 
