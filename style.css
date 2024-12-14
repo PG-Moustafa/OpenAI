@@ -27,7 +27,7 @@ header {
 
 .header_item1 {
     justify-content: center;
-    font-size: 15px;
+    font-size: 16px;
     padding: 15px;
 }
 .header_item1:hover {
@@ -378,22 +378,22 @@ header {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-        .img_chatGPT {
-            width: 250px;
-            height: 333px;
-            border-radius: 15px;
-        }
-        #text_chatGPT_title {
-            font-size: 10px;
-            margin-top: -5px;
-            margin-left: -50px;
-        }
-        #text_Introducing_chatGPT {
-            font-size: 10px;
-            margin-left: 25px;
-            margin-top: 270px;
-            font-weight: 500;
-        }
+    .img_chatGPT {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+    #text_chatGPT_title {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    #text_Introducing_chatGPT {
+        font-size: 10px;
+        margin-left: 25px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
 }   
 
 @media (min-width: 1025px) and (max-width: 1279px) {
@@ -448,9 +448,9 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_search {
-            width: 160px;
-            height: 200px;
-            border-radius: 15px;
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
         }
     #text_search_title {
         font-size: 10px;
@@ -492,3 +492,593 @@ header {
 
 
 
+
+/* Research */
+.div3 {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.text_research {
+    padding-bottom: 30px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.researchs {
+    display: flex;
+    width: 80%;
+}
+
+/*Research_1*/
+.research_1 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+.img_research_1 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+.img_research_1:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.overlay_research_1 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_research_1 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+#text_research_1 {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .div3 {
+        margin-left: 0px;
+        }
+    .text_research {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .img_research_1 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #title_research_1 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    #text_research_1 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .div3 {
+        margin-left: 80px;
+        }
+    .text_research {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .img_research_1 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+    #title_research_1 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    #text_research_1 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
+
+
+/*Research_2*/
+.research_2 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img_research_2 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.img_research_2:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.overlay_research_2 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_research_2 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+#text_research_2 {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .img_research_2 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    #title_research_2 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+
+    #text_research_2 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_research_2 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+    #title_research_2 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 25px;
+    }
+    #text_research_2 {
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
+
+
+/*Research_3*/
+.research_3 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img_research_3 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.img_research_3:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.overlay_research_3 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_research_3 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+#text_research_3 {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .img_research_3 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    #title_research_3 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+
+    #text_research_3 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_research_3 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+    #title_research_3 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 25px;
+    }
+    #text_research_3 {
+        font-size: 10px;
+        margin-left: 0px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+/*Business*/
+
+.div4 {
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.text_business {
+    padding-bottom: 30px;
+    font-size: 28px;
+    margin-left: 20px;
+}
+.business {
+    display: flex;
+    width: 80%;
+}
+
+/*Business_1*/
+.business_1 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img_business_1 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.img_business_1:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.overlay_business_1 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_business_1 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 40px;
+}
+
+#text_business_1 {
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 380px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .div4 {
+        margin-left: 0px;
+    }
+    .text_business {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .img_business_1 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+    #title_business_1 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    #text_business_1 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .div4 {
+        margin-left: 80px;
+    }
+    .text_business {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .img_business_1 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+    #title_business_1 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 20px;
+    }
+    #text_business_1 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
+
+
+/*Business_2*/
+.business_2 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img_business_2 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.img_business_2:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.overlay_business_2 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_business_2 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+#text_business_2 {
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 380px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .img_business_2 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    #title_business_2 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+
+    #text_business_2 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_business_2 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+
+    #title_business_2 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 25px;
+    }
+
+    #text_business_2 {
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
+
+
+/*Business_3*/
+.business_3 {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+}
+
+.img_business_3 {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.img_business_3:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.overlay_business_3 {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#title_business_3 {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: 50px;
+}
+
+#text_business_3 {
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 380px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .img_business_3 {
+        width: 160px;
+        height: 200px;
+        border-radius: 15px;
+    }
+
+    #title_business_3 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+
+    #text_business_3 {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 140px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img_business_3 {
+        width: 250px;
+        height: 333px;
+        border-radius: 15px;
+    }
+
+    #title_business_3 {
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 25px;
+    }
+
+    #text_business_3 {
+        font-size: 10px;
+        margin-left: -20px;
+        margin-top: 270px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
