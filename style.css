@@ -12,7 +12,6 @@ header {
     justify-content: space-around;
     font-size: 13px;
     font-weight: 500;
-    
 }
 .header1 {
 
@@ -111,7 +110,7 @@ header {
 }
 
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media  (max-width: 767px) {
     /* Styles for mobiles*/
     .overlay {
             left: 39%;
@@ -253,7 +252,7 @@ header {
 }
 
 /*mobiles*/
-@media (min-width: 481px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 .div2 {
     margin-top: 20px;
     margin-left: 50px;
@@ -1663,7 +1662,7 @@ header {
     margin-top: 380px;
 }
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media  (max-width: 767px) {
 
     .img_stories_3 {
         width: 110px;
@@ -1741,7 +1740,7 @@ header {
 .btn_try_chatgpt:hover {
     cursor: pointer;
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media  (max-width: 767px) {
     .div8 {
             width: 400px;
             height: 300px;
@@ -1793,7 +1792,7 @@ li:hover {
 .special_li {
     color: rgb(181, 178, 178);
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 767px) {
 .div9 {
     width: 40px;
     height: 400px;
@@ -1842,7 +1841,7 @@ footer {
     height: 15px;
     margin-right: 25px;
 }
-@media (min-width: 481px) and (max-width: 767px) {
+@media (max-width: 767px) {
         footer {
             margin-top: 200px;
         }
