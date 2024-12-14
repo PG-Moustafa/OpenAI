@@ -260,7 +260,7 @@ header {
     }
 .text_product {
     padding-bottom: 30px;
-    font-size: 28px;
+    font-size: 15px;
 }
 .products {
     width: 80%;
@@ -299,7 +299,6 @@ header {
     display: flex;
     position: relative;
     margin-left: 20px;
-    margin-top: 5px;
 }
 .img_chatGPT {
     width: 350px;
@@ -374,7 +373,6 @@ header {
     display: flex;
     position: relative;
     margin-left: 20px;
-    margin-top: 5px;
 }
 .img_search {
     width: 350px;
