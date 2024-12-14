@@ -206,6 +206,7 @@ header {
 }
 .text_product {
     padding-bottom: 30px;
+    font-size: 28px;
 
 }
 .products {
@@ -217,13 +218,16 @@ header {
 .product_sora {
     display: flex;
     position: relative;
-
 }
 .sora_video {
-    border-radius: 15px;
+    border-radius: 25px;
     position: relative;
     z-index: 0;
     width: 350px;
+}
+.sora_video:hover {
+    cursor: pointer;
+    transform: scale(1.01);
 }
 .overlay_sora {
     display: inline-block;
@@ -244,23 +248,45 @@ header {
     color: white;
     margin-left: 25px;
     margin-top: 400px;
+    font-weight: 500;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+    
+}
+
+@media (min-width: 1280px) {
+
+}
+
 
 /*Product_chatgpt*/
-.product_chatGPT {
+.product_chatgpt {
     display: flex;
     position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
 }
-
 .img_chatGPT {
     width: 350px;
     height: 470px;
-    border-radius: 5px;
+    border-radius: 15px;
     position: relative;
     z-index: 0;
 }
-
-.overlay_sora {
+.img_chatGPT:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.overlay_chatgpt {
     display: inline-block;
     position: absolute;
     top: 5%;
@@ -268,22 +294,87 @@ header {
     background-color: transparent;
     justify-items: center;
 }
-
-#text_sora_title {
+#text_chatGPT_title {
     font-size: 13px;
     background-color: transparent;
     color: white;
-    margin-top: -5px;
+    margin-top: -10px;
+    margin-left: -50px;
 }
-
-#text_sora_is_here {
+#text_Introducing_chatGPT {
     background-color: transparent;
     color: white;
     margin-left: 25px;
     margin-top: 400px;
+    font-weight: 500;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+
+}
+
+@media (min-width: 1280px) {
+
 }
 
 
+
+/*Product_Search*/
+.product_search {
+    display: flex;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.img_search {
+    width: 350px;
+    height: 470px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+}
+.img_search:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.overlay_search {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+#text_search_title {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -10px;
+    margin-left: -70px;
+}
+#text_search {
+    background-color: transparent;
+    color: black;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 1025px) and (max-width: 1279px) {}
+
+@media (min-width: 1280px) {}
 
 
 
