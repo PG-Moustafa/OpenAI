@@ -260,22 +260,22 @@ header {
     }
 .text_product {
     padding-bottom: 30px;
-    font-size: 15px;
+    font-size: 13px;
 }
 .products {
     width: 80%;
 }
 .sora_video {
-    width: 150px;
+    width: 110px;
 }
 #text_sora_title {
-    font-size: 10px;
+    font-size: 8px;
     margin-top: -5px;
 }
 #text_sora_is_here {
-    font-size: 10px;
+    font-size: 8px;
     margin-left: 15px;
-    margin-top: 140px;
+    margin-top: 110px;
     font-weight: 500;
 }
 }
@@ -360,19 +360,19 @@ header {
 /*mobiles*/
 @media (min-width: 481px) and (max-width: 767px) {
     .img_chatGPT {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
     #text_chatGPT_title {
-        font-size: 10px;
+        font-size: 8px;
         margin-top: -5px;
-        margin-left: -50px;
+        margin-left: -25px;
     }
     #text_Introducing_chatGPT {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-top: 140px;
+        font-size: 8px;
+        margin-left: 12px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -448,19 +448,19 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_search {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
         }
     #text_search_title {
-        font-size: 10px;
+        font-size: 8px;
         margin-top: -5px;
-        margin-left: -50px;
+        margin-left: -25px;
     }
     #text_search {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-top: 140px;
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -555,8 +555,8 @@ header {
         margin-left: 0px;
         }
     .text_research {
-        margin-left: 20px;
-        font-size: 15px;
+        margin-left: 50px;
+        font-size: 13px;
     }
     .img_research_1 {
         width: 160px;
@@ -1742,6 +1742,33 @@ header {
 .btn_try_chatgpt:hover {
     cursor: pointer;
 }
+@media (min-width: 481px) and (max-width: 767px) {
+    .div8 {
+            width: 400px;
+            height: 300px;
+            margin-top: 100px;
+            margin-left: 50px;
+            border-radius: 10px;
+        }
+        .div8_text {
+            font-size: 18px;
+        }
+        .btn_try_chatgpt {
+            font-size: 12px;
+            padding: 8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            border-radius: 20px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+
 
 
 .div9 {
@@ -1755,19 +1782,36 @@ header {
 .col1 {
     margin-left: -200px;
 }
-
 li {
     font-size: 13px;
     font-family: sans-serif;
     padding-bottom: 20px;
     list-style: none;
-
 }
 li:hover {
     cursor: pointer;
 }
 .special_li {
     color: rgb(181, 178, 178);
+}
+@media (min-width: 481px) and (max-width: 767px) {
+.div9 {
+    width: 40px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.col1 {
+    margin-left:0px;
+}
+li {
+    font-size: 10px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
 
 
@@ -1799,9 +1843,36 @@ footer {
     height: 15px;
     margin-right: 25px;
 }
-#logo1 {
+@media (min-width: 481px) and (max-width: 767px) {
+        footer {
+            margin-top: 200px;
+        }
+        .footer1 {
+            margin-left: 75px;
+        }
+        .footer1 p {
+            font-size: 10px;
+        }
+        .footer2 {
+            margin-left: 30px;
+        }
+        .footer2 p {
+            font-size: 10px;
+        }
+        .footer3 {
+            margin-left: 100px;
+        }
+        .logos {
+            width: 10px;
+            height: 10px;
+            margin-right: 10px;
+        }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
 
 }
+
 
 
 
