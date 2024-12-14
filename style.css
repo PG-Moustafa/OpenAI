@@ -1,0 +1,289 @@
+* {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+body {
+}
+
+header {
+    display:flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+.header1 {
+
+}
+.header2 {
+    display:flex;
+    justify-content: space-around;
+}
+.header3 {
+
+}
+
+.header_item1 {
+    justify-content: center;
+    font-size: 15px;
+    padding: 15px;
+}
+.header_item1:hover {
+    cursor: pointer;
+}
+.header_item2 {
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.header_item2:hover {
+    cursor: pointer;
+}
+.header_item3 {
+    padding: 15px;
+}
+.header_item3:hover {
+    cursor: pointer;
+}
+.header_item4 {
+    padding: 15px;
+}
+.header_item4:hover {
+    cursor: pointer;
+}
+.header_item5 {
+    padding: 15px;
+}
+.header_item5:hover {
+    cursor: pointer;
+}
+.search_icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 15px;
+    /* background-image: url('images/search.png');
+    background-size: cover; */
+}
+.search_icon:hover {
+    cursor: pointer;
+    content: url('images/search_2.png');
+}
+
+
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.vid1 {
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+}
+.overlay {
+    display: inline-block;
+    position: absolute;
+    top: 28%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+#text_12days {
+    background-color: transparent;
+    color: black;
+    font-weight: 545;
+}
+#text_continuing {
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    margin-top: -5px;
+}
+.btn1 {
+    border-radius: 40px;
+}
+.btn1:hover {
+    cursor: pointer;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* Styles for mobiles*/
+    .overlay {
+            left: 39%;
+        }
+    
+    #text_12days {
+        font-size: 9px;
+    }
+
+    #text_continuing {
+        font-size: 4px;
+    }
+
+    .btn1 {
+        font-size: 4px;
+        padding: 2px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets */
+    .overlay {
+            left: 40%;
+        }
+    
+    #text_12days {
+        font-size: 22px;
+    }
+
+    #text_continuing {
+        font-size: 9px;
+    }
+
+    .btn1 {
+        font-size: 9px;
+        padding: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+    /* Styles for medium tablets */
+    .overlay {
+            left: 40%;
+        }
+
+    #text_12days {
+        font-size: 18px;
+    }
+
+    #text_continuing {
+        font-size: 7px;
+    }
+
+    .btn1 {
+        font-size: 7px;
+        padding: 3px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+@media (min-width: 1280px) {
+    /* Styles for large desktops */
+    .overlay {
+            left: 38%;
+        }
+    
+    #text_12days {
+        font-size: 40px;
+    }
+
+    #text_continuing {
+        font-size: 16px;
+    }
+
+    .btn1 {
+        font-size: 16px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+.div2 {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.text_product {
+    padding-bottom: 30px;
+
+}
+.products {
+    display: flex;
+    width: 80%;
+}
+
+/*Product Sora*/
+.product_sora {
+    display: flex;
+    position: relative;
+
+}
+.sora_video {
+    border-radius: 15px;
+    position: relative;
+    z-index: 0;
+    width: 350px;
+}
+.overlay_sora {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+#text_sora_title {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -5px;
+}
+#text_sora_is_here {
+    background-color: transparent;
+    color: white;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+/*Product_chatgpt*/
+.product_chatGPT {
+    display: flex;
+    position: relative;
+}
+
+.img_chatGPT {
+    width: 350px;
+    height: 470px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;
+}
+
+.overlay_sora {
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    z-index: 1;
+    background-color: transparent;
+    justify-items: center;
+}
+
+#text_sora_title {
+    font-size: 13px;
+    background-color: transparent;
+    color: white;
+    margin-top: -5px;
+}
+
+#text_sora_is_here {
+    background-color: transparent;
+    color: white;
+    margin-left: 25px;
+    margin-top: 400px;
+}
+
+
+
+
+
