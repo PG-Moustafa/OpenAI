@@ -552,26 +552,26 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .div3 {
-        margin-left: 0px;
+        margin-left: 35px;
         }
     .text_research {
-        margin-left: 50px;
+        margin-left: 20px;
         font-size: 13px;
     }
     .img_research_1 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
     #title_research_1 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
     #text_research_1 {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-top: 140px;
+        font-size: 7px;
+        margin-left: 10px;
+        margin-top: 120px;
         font-weight: 500;
     }
 }
@@ -654,21 +654,19 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_research_2 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
-
     #title_research_2 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
-
     #text_research_2 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 120px;
         font-weight: 500;
     }
 }
@@ -744,21 +742,21 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_research_3 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_research_3 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 5px;
     }
 
     #text_research_3 {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-top: 140px;
+        font-size: 7px;
+        margin-left: 10px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -845,27 +843,28 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .div4 {
-        margin-left: 0px;
+        margin-left: 40px;
     }
     .text_business {
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 13px;
     }
     .img_business_1 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
     #title_business_1 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
     #text_business_1 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
+
     }
 }
 
@@ -947,21 +946,21 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_business_2 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_business_2 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     #text_business_2 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -1039,21 +1038,21 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .img_business_3 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_business_3 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     #text_business_3 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -1149,30 +1148,30 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .div5 {
-        margin-left: 0px;
+        margin-left: 35px;
     }
 
     .text_developers {
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .img_developers_1 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_developers_1 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 10px;
     }
 
     #text_developers_1 {
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -1260,19 +1259,19 @@ header {
 @media (min-width: 481px) and (max-width: 767px) {
     
     .img_developers_2 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
     #title_developers_2 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 5px;
     }
     #text_developers_2 {
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -1352,21 +1351,21 @@ header {
 @media (min-width: 481px) and (max-width: 767px) {
 
     .img_developers_3 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_developers_3 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: 5px;
     }
 
     #text_developers_3 {
-        font-size: 10px;
+        font-size: 8px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 110px;
         font-weight: 500;
     }
 }
@@ -1463,30 +1462,30 @@ header {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .div6 {
-        margin-left: 0px;
+        margin-left: 35px;
     }
 
     .text_stories {
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .img_stories_1 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_stories_1 {
-        font-size: 10px;
-        margin-top: -5px;
-        margin-left: -50px;
+        font-size: 7px;
+        margin-top: 0px;
+        margin-left: -40px;
     }
 
     #text_stories_1 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 100px;
         font-weight: 500;
     }
 }
@@ -1574,21 +1573,21 @@ header {
 @media (min-width: 481px) and (max-width: 767px) {
 
     .img_stories_2 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_stories_2 {
-        font-size: 10px;
-        margin-top: -5px;
+        font-size: 7px;
+        margin-top: 0px;
         margin-left: -50px;
     }
 
     #text_stories_2 {
-        font-size: 10px;
+        font-size: 7px;
         margin-left: 15px;
-        margin-top: 140px;
+        margin-top: 100px;
         font-weight: 500;
     }
 }
@@ -1667,21 +1666,21 @@ header {
 @media (min-width: 481px) and (max-width: 767px) {
 
     .img_stories_3 {
-        width: 160px;
-        height: 200px;
+        width: 110px;
+        height: 150px;
         border-radius: 15px;
     }
 
     #title_stories_3 {
-        font-size: 10px;
-        margin-top: -5px;
+        font-size: 7px;
+        margin-top: 0px;
         margin-left: -50px;
     }
 
     #text_stories_3 {
-        font-size: 10px;
-        margin-left: 15px;
-        margin-top: 140px;
+        font-size: 7px;
+        margin-left: 10px;
+        margin-top: 100px;
         font-weight: 500;
     }
 }
@@ -1860,7 +1859,7 @@ footer {
             font-size: 10px;
         }
         .footer3 {
-            margin-left: 100px;
+            margin-left: 80px;
         }
         .logos {
             width: 10px;
