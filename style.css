@@ -1739,28 +1739,69 @@ header {
     padding-right: 10px;
     border-radius: 20px;
 }
+.btn_try_chatgpt:hover {
+    cursor: pointer;
+}
 
 
 .div9 {
     width: 1000px;
     height: 500px;
     margin-top: 100px;
-    margin-left: 250px;
+    margin-left: 350px;
     display: flex;
     justify-content: space-evenly;
-
-    border: 2px solid red;
 }
 .col1 {
     margin-left: -200px;
-    border: 2px solid yellow;
 }
 
 li {
-    font-size: 12px;
-    padding: 5px;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    list-style: none;
+
+}
+li:hover {
+    cursor: pointer;
+}
+.special_li {
+    color: rgb(181, 178, 178);
 }
 
+
+footer {
+    display: flex;
+    margin-top: 100px;
+}
+.footer1 {
+    margin-left: 50px;
+}
+.footer1 p {
+    font-size: 12px;
+}
+.footer2 {
+    margin-left: 30px;
+}
+.footer2 p {
+    font-size: 12px;
+    text-decoration-line: underline;
+}
+.footer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 850px;
+}
+.logos {
+    width: 15px;
+    height: 15px;
+    margin-right: 25px;
+}
+#logo1 {
+
+}
 
 
 
